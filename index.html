@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>e-commerce</title>
+    <link rel = "icon" href = 
+"https://static.nike.com/a/images/f_jpg,q_auto:eco/61b4738b-e1e1-4786-8f6c-26aa0008e80b/swoosh-logo-black.png" 
+        type = "image/x-icon">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <img class="logo" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEX///8AAAD39/ft7e34+PhoaGhQUFDDw8PQ0NDc3Nyrq6uTk5Ovr6+7u7vKysrn5+ebm5tXV1csLCzW1tZtbW0zMzOBgYEiIiJCQkJdXV20tLRycnIQEBDx8fGZmZk8PDx8fHxJSUkXFxeKioqioqIUFBQ1NTWfOkAUAAAD9UlEQVR4nO3aa3vxShSAYSMIIaSlVdUWld3//xN3HBIJOc6sId7rub9bM4tZc9TpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE/N6T66Bw30ND7jbKV7Yc3Um2p86lvNxHtiwywcrHTyixLsS/dFXtd9V2qr90t0l2ok3B1p82CnlAp1CjDSW6oX2f7Icib9KDv14WpHiL4drbF9F+776yE91Z/rx1gp9SrXI0mjYKBO9o5BmKh8lSfWKTHO5+Kcnfr1NMvvxDvEaNlq35vu3+L0TMrvaHgIspbpmIxROFAXfdNJ3jmGac08Ew3Nr1R6ZuV3choMAn0zFw3NZTo7tZSYHdbHUFuBSIYus6ZU+Z14qg2DNDVrJhYye6zROdwjZ9L0rJkYm5ffye8p3k4oXGO3Q/NYfhOxBuKxMRaL2MD1rBnbCZaMHwcVKekmerlD82AtecRxkrD3PftmF/Rs+X2LtrRLAouGLeX4+UNTuPxOgkto4cgFoqH5WpSdUi/iK9YsFVw6do5R+FKcXbTlsHDDsLmEt31D8+2vy7JT6sfGeuylGlhYiJ+Yjz/K03v9tNLud7oNa7/hbLIqz85G+Z31060MbLTQc7fLorQSmjeDNQyzDYnHn//sKrOzVH5nVxsK0dizST8/oaw3O+V3NrlqzeCaLqsb3/xVWQ2lmsx33Z7MznseVMyaCXvldxZct2h+WVpzaB6F1k+jvdtGjQ4X0dAs3Gve2PhSaZS4+QlNfsT5T92heWC7/M7ymg51AjkNhubB+51OaV5u6013vj33vXpBT/vSfRdrrmA6b3L2PD3lNXGX8jsbFvThq+YQajJrxlZiC24dxf2r/pprL+gZ+/teknTLvurSrjSbNWO/WnOYiesNW1bRUXvkNR+aB5u73+J1OoXXXGdvwTw75znToPKQV8D4XUxH2SC9fPPrsee7rh+O1x//aWYn8i6mw6/umQiRdzEt27vkt3tA+cU0JvvGhN7F9OQcK6TtZS/mmxpV99DI48ov5lrNb/DA8ouVr/dmHlp+idBafsLvYtosZSj+LqbPSoaD1vzdqFN0vjci+ixtTnzT1pbyS8iuh5bexYzUOlrUZO1dzEzBfzyas34xr2svk1/QtvK7mAuk99fC8ksxPj4N7nMxr89wRWxt+aWY5Be07P/u+bQX/b87Xsyb0bv5bH35pf02z8/Gn7Iscqozyljaf5aW5tR/lI6O7s80PBO90v8JpgzavbiXqXNhs/Mecy8vpFe+Q/1a+E9XfDe63l9Bev3wuabOErPJInuc2vR/3CfYlzU0G079z0/fHY7aeyQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAv+Z/HBwq9QVvQoQAAAAASUVORK5CYII=" alt="logo">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#product">Products</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+    
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- Home -->
+    <section id="home" class="container">
+        <h2 class="display-2">Home</h2>
+        <figure class="container">
+            <img class="img-fluid rounded-2" src="https://images.summitmedia-digital.com/spotph/images/2021/12/07/rhand-rhelle-araneta-1-1638874311.jpeg" alt="sneaker collection">
+            <figcaption>
+                <p>Get our lovely men sneaker collection on a great deal.</p>
+            </figcaption>
+        </figure>
+
+    </section>
+    
+    <!-- Products -->
+    <section id="product" class="container">
+        <h2 class="display-2">Products</h2>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators w-25">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/f2b7f11f-628f-4fb7-afa1-66f7a51f52f0/air-force-1-07-fresh-dm0211-001-release-date.jpg" class="img-fluid w-28" alt="sneaker">
+                <div class="carousel-caption d-none d-md-block">
+                    <p>Nike Air Force 1 '07 Fresh.</p>
+                    <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                    view more
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Air Force 1 '07 Fresh.</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Air Force 1 '07</h4>
+                            <h3>Fresh</h3>
+                            <p>R 2 799,95</p>
+                        <figure>
+                            <img src="https://static.nike.com/a/images/t_prod_ss/w_640,c_limit,f_auto/f2b7f11f-628f-4fb7-afa1-66f7a51f52f0/air-force-1-07-fresh-dm0211-001-release-date.jpg" class="w-25" alt="">
+                            <figcaption>
+                                <p>You can't stop ageing, but the Air Force 1 'Fresh' gets pretty close. Soft, textured leather helps conceal creasing, plus it's easy to clean. We've swapped woven labels for debossed branding, while the perforated sockliner keeps it airy and breathable. An extra set of laces means you can go from grabbing coffee on the go to playing in the park without thinking twice. Now, there's really no reason not to rock your triple blacks morning 'til night—365.</p>
+                                <p>SKU: DM0211-001</p>
+                                <p>Available in white and black</p>
+                                <table class="table table-responsive table-dark table-hover">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Size</th>
+                                        <th scope="col">Size</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">UK 5.5</th>
+                                        <td>UK 3.9</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">UK 6</th>
+                                        <td>UK 4.5</td>
+                                      </tr>
+                                      <tr>
+                                        <th scope="row">UK 6(EU 39)</th>
+                                        <td colspan="2">UK 5.5</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                            </figcaption>
+                        </figure>
+
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/78f9a271-d252-4052-8a24-58615de16ab4/air-force-1-07-shoes-Wpr816.png" class="img-fluid w-28" alt="sneaker">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Nike Air Force 1 '07.</p>
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    view more
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h4>Air Force 1 '07</h4>
+                                <p>Men's shoes</p>
+                                <p>R 2 399,95</p>
+                                <figure>
+                                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/78f9a271-d252-4052-8a24-58615de16ab4/air-force-1-07-shoes-Wpr816.png" class="w-25" alt="">
+                                    <figcaption>
+                                        <p>With iconic style and legendary comfort, the AF-1 was made to be worn on repeat. This iteration puts a fresh spin on the hoops classic with crisp leather, era-echoing '80s construction and reflective-design Swoosh logos. Whether you're heading to the corner shop or hopping on a plane, hidden Air units cushion your every step. So, where will you wear them?</p>
+                                        <p>SKU: DM0211-001</p>
+                                        <p>Available in white and black</p>
+                                        <ul>
+                                            <li>Colour Shown: Iron Grey/Volt/Black</li>
+                                            <li>Style: DZ4510-001</li>
+                                        </ul>
+                                        <table class="table table-responsive table-dark table-hover">
+                                            <thead>
+                                            <tr>
+                                                <th scope="col">Size</th>
+                                                <th scope="col">Size</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <th scope="row">UK 5.5</th>
+                                                <td>UK 3.9</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">UK 6</th>
+                                                <td>UK 4.5</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">UK 6(EU 39)</th>
+                                                <td colspan="2">UK 5.5</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                </figcaption>
+                            </figure>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+              <div class="carousel-item">
+                <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/edb69c60-505d-4eef-9058-55eb3ca34d26/air-max-plus-3-shoes-hVr4TK.png" class="img-fluid w-28" alt="sneaker">
+                <div class="carousel-caption d-none d-md-block">
+                  <p>Nike Air Max Plus 3.</p>
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                    view more
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h4>Air Force 1 '07</h4>
+                                <h3>Fresh</h3>
+                                <p>R 3 599,95</p>
+                                <figure>
+                                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/edb69c60-505d-4eef-9058-55eb3ca34d26/air-max-plus-3-shoes-hVr4TK.png" class="w-25" alt="">
+                                    <figcaption>
+                                        <p>At home on Italian runways and local neighbourhood streets, the Nike Air Max Plus 3 features a design that's ahead of its time. Nike Air units create a Tuned Air experience that delivers stability and comfortable cushioning, while sleek branding and a splash of sunset-inspired colours add defiant style. Are you bold enough to give them a try?</p>
+                                        <p>SKU: DM0211-001</p>
+                                        <ul>
+                                            <li>Colour Shown: Light Bone/University Gold/Black/Viotech</li>
+                                            <li>Style: DX2664-001</li>
+                                        </ul>
+                                        <table class="table table-responsive table-dark table-hover">
+                                            <thead>
+                                            <tr>
+                                                <th scope="col">Men Size</th>
+                                                <th scope="col">Women Size</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <th scope="row">UK 5.5</th>
+                                                <td>UK 3.9</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">UK 6</th>
+                                                <td>UK 4.5</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">UK 6(EU 39)</th>
+                                                <td colspan="2">UK 5.5</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+    </section>
+
+    <!-- Contacts -->
+    <section id="contact">
+        <h2 class="display-2">Contact</h2>
+        <div class="container">
+            <div class="row">
+                <div class="container col-4 d-flex justify-content-center">
+                    <form action="" class="mt-3">
+                        <div>
+                            <input type="text" class="form-control" placeholder="Enter your name" required>
+                        </div>
+                        <div class="my-5">
+                            <input type="text" placeholder="Enter your surname" class="form-control" required>
+                        </div>
+                        <div class="mb-5">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email" required>
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                          </div>
+                        <div>
+                            <button class="btn btn-outline-info">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="container">
+        <footer>
+            <p>Copyright &copy; 2022</p>
+            <address>
+                Written by <a href="giftnkz6@gmail.com">Gift Mahlangu</a><br>
+                Visit us at:
+                Life Choices<br>
+                314 Imam Haron Road,<br> Lansdowne
+                South Africa
+                <br>
+            </address>
+        </footer>
+        
+    </section>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

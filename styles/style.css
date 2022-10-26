@@ -1,0 +1,65 @@
+/* Universal */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* body */
+body{
+    text-align: center;
+    background-color: darkcyan;
+
+}
+/* logo */
+.logo{
+    width: 5em;
+}
+/* Link styling */
+a{
+    text-decoration: none;
+}
+/* Navbar styling */
+nav ul{
+    margin-left: auto;
+}
+nav ul li{
+    margin: 1rem;
+}
+header nav ul li a{
+    color: black;
+    font-size: x-large;
+}
+header nav ul li a:hover{
+    color: blueviolet;
+}
+header nav{
+    background-color: darkcyan;
+}
+/* Home image*/
+#home figure img{
+    width: 50rem;
+}
+/* h2 elements */
+h2{
+    text-align: center;
+}
+/* Products Carousel */
+section .carousel .carousel-inner .carousel-item img{
+    /* width: 20rem; */  
+}
+#product{
+    margin-top: 10em;
+}
+/* Contact */
+#contact{
+    margin-top: 10em;
+}
+form{
+    text-align: center;
+}
+/* Footer */
+footer{
+    margin-top: 5em;
+    font-weight: bold;
+}
+
