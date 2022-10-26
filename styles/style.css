@@ -54,9 +54,11 @@ section .carousel .carousel-inner .carousel-item img{
 #contact{
     margin-top: 10em;
 }
+/* Form */
 form{
     text-align: center;
 }
+
 /* Footer */
 footer{
     margin-top: 5em;
